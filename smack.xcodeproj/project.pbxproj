@@ -14,6 +14,9 @@
 		77DF614320713E2A00CFEB5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77DF614120713E2A00CFEB5A /* Main.storyboard */; };
 		77DF614520713E2C00CFEB5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77DF614420713E2C00CFEB5A /* Assets.xcassets */; };
 		77DF614820713E2C00CFEB5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77DF614620713E2C00CFEB5A /* LaunchScreen.storyboard */; };
+		77E47DB82077F9D2003CB52C /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E47DB72077F9D2003CB52C /* GradientView.swift */; };
+		77E47DBB20780DB0003CB52C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E47DBA20780DB0003CB52C /* Constants.swift */; };
+		77E47DBD20782031003CB52C /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E47DBC20782031003CB52C /* LoginVC.swift */; };
 		EDD110C14DEABE3678DD74D8 /* Pods_smack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DA6E76A7CB510AAD0C497F8 /* Pods_smack.framework */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +34,9 @@
 		77DF614420713E2C00CFEB5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		77DF614720713E2C00CFEB5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		77DF614920713E2C00CFEB5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77E47DB72077F9D2003CB52C /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		77E47DBA20780DB0003CB52C /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		77E47DBC20782031003CB52C /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		9E70DF16EEE07D3D6AFDD15C /* Pods-smack.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-smack.debug.xcconfig"; path = "Pods/Target Support Files/Pods-smack/Pods-smack.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -51,6 +57,7 @@
 			children = (
 				77B56794207155AF00F5379E /* ChatVC.swift */,
 				77B56796207155BF00F5379E /* ChannelVC.swift */,
+				77E47DBC20782031003CB52C /* LoginVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -58,6 +65,7 @@
 		77B567922071555C00F5379E /* View */ = {
 			isa = PBXGroup;
 			children = (
+				77E47DB72077F9D2003CB52C /* GradientView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -90,6 +98,7 @@
 		77DF613C20713E2A00CFEB5A /* smack */ = {
 			isa = PBXGroup;
 			children = (
+				77E47DB920780D8C003CB52C /* Utilities */,
 				77B567932071556300F5379E /* Model */,
 				77B567922071555C00F5379E /* View */,
 				77B567912071554F00F5379E /* Controller */,
@@ -103,6 +112,14 @@
 				77DF614920713E2C00CFEB5A /* Info.plist */,
 			);
 			path = smack;
+			sourceTree = "<group>";
+		};
+		77E47DB920780D8C003CB52C /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				77E47DBA20780DB0003CB52C /* Constants.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 		9D155776815311AC34F08918 /* Pods */ = {
@@ -259,8 +276,11 @@
 			files = (
 				77B56797207155BF00F5379E /* ChannelVC.swift in Sources */,
 				77B56795207155AF00F5379E /* ChatVC.swift in Sources */,
+				77E47DBD20782031003CB52C /* LoginVC.swift in Sources */,
+				77E47DB82077F9D2003CB52C /* GradientView.swift in Sources */,
 				77DF613E20713E2A00CFEB5A /* AppDelegate.swift in Sources */,
 				77B5679020714DE000F5379E /* SWRevealViewController.m in Sources */,
+				77E47DBB20780DB0003CB52C /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
